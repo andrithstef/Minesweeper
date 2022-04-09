@@ -1,0 +1,22 @@
+.button_normal {
+    -fx-background-radius: 0;
+    -fx-border-color: #919191;
+    -fx-background-color: #bdbdbd;
+}
+
+.button_pressed {
+    -fx-border-radius: 0;
+    -fx-border-color: #727272;
+    -fx-background-color: #8c8c8c;
+    -fx-alignment: center;
+    -fx-text-fill: blue;
+}
+
+.button_flagged {
+    -fx-background-image: url("flag.png");
+    -fx-background-size: cover;
+    -fx-background-radius: 0;
+    -fx-border-color: #919191;
+    -fx-background-color: #bdbdbd;
+
+}
